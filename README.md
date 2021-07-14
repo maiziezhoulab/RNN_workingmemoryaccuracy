@@ -12,3 +12,24 @@ Here we also provide a jupyter notebook **Main_analysis.ipynb** that you can dir
 *Training scripts (including train.py, task.py and network.py) are partly adapted from* <a href="https://github.com/gyyang/multitask">Multitask</a> 
 
 We train RNNs to learn working memory tasks (ODR 3s delay and ODRD) and anti-saccade tasks (Overlap, Zero-gap, and Gap/Gap500).
+
+### File Structure
+
+After training, files in */data* would be structured as follows:
+```
+├─data
+   └─6tasks_8loc_256neuron_odr3000_seed0
+      ├─hp.json                       -----> Hyperparameters              
+      ├─log.json                      -----> Training logs
+      ├─0
+      │  ├─checkpoint                      ┐
+      │  ├─model.ckpt.data-00000-of-00001  |
+      │  ├─model.ckpt.index                |——Model saved
+      │  └─model.ckpt.meta                 ┘
+      ├─1280                          -----> Number of trails trained when saving the model, also noted as "trial number".
+      │  ├─checkpoint                        We use it to distinguish models at different training stage.
+      │  ├─model.ckpt.data-00000-of-00001
+      │  ├─model.ckpt.index
+      │  └─model.ckpt.meta
+      │ ...
+```
