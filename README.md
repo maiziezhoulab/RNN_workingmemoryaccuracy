@@ -71,5 +71,5 @@ Most of the analysis in the paper can be reproduced by **Main_analysis.ipynb**.
 
 **single_neuron_PSTH** plots the normalized PSTH of all correct trials at each location for single neuron in mature stage.
 <p align="center">
-	<img src="example_figure/single_neuron_raster_plot.png"  width="400" height="400">
+	<img src="example_figure/single_neuron_raster_plot.png"  width="400" height="600">
 </p>
