@@ -41,5 +41,5 @@ Most of the analysis in the paper can be reproduced by **Main_analysis.ipynb**.
 	<img src="example_figure/odr3000_psth.png"  width="400">
 </p>
 <p align="center">
-	<img src="example_figure/odrd_psth.png"  width="600" height="400">
+	<img src="example_figure/odrd_psth.png"  width="600" height="300">
 </p>
