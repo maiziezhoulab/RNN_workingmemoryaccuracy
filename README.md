@@ -36,14 +36,15 @@ After training, files in */data* would be structured as follows:
 ## Analysis
 Most of the analysis in the paper can be reproduced by **Main_analysis.ipynb**.
 ### Main Analysis Function Instruction
-**plot psth** plots mean rate of the RNN units responsive to the ODR task (upper) with 3s delay time and ODRD task (lower), during three developmental stages
+**plot psth** plots mean rate of the RNN units responsive to the ODR task (upper) with 3s delay time and ODRD task (lower), during three developmental stages.
 <p align="center">
 	<img src="example_figure/odr3000_psth.png"  width="400">
 </p>
 <p align="center">
 	<img src="example_figure/odrd_psth.png"  width="700" height="300">
 </p>
-**Endpoint Analysis** plot the distribution of saccade endpoints to the actual cue location, during three developmental stages
+
+**Endpoint Analysis** plot the distribution of saccade endpoints to the actual cue location, during three developmental stages.
 <p align="center">
 	<img src="example_figure/Endpoint_analysis.png"  width="600" height="400">
 </p>
