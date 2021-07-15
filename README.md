@@ -33,3 +33,10 @@ After training, files in */data* would be structured as follows:
       │  └─model.ckpt.meta
       │ ...
 ```
+## Analysis
+Most of the analysis in the paper can be reproduced by **Main_analysis.ipynb**.
+### Main Analysis Function Instruction
+**plot psth** plots mean rate of the RNN units responsive to the ODR task with 3s delay time, during three developmental stages
+<p align="center">
+	<img src="example_figure/odr3000_psth.png"  width="400">
+</p>
