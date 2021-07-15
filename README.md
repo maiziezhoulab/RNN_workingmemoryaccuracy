@@ -61,5 +61,5 @@ Most of the analysis in the paper can be reproduced by **Main_analysis.ipynb**.
 
 **R_distribution_dev_saccade_dev_fr** plots the distribution of pearson correlation coefficients between saccade deviation and firing rate deviation
 <p align="center">
-	<img src="example_figure/R_distribute.png"  width="400" height="400">
+	<img src="example_figure/R_distribute.png"  width="400" height="300">
 </p>
