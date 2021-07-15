@@ -51,5 +51,5 @@ Most of the analysis in the paper can be reproduced by **Main_analysis.ipynb**.
 
 **Averaged_R_tuning_locs**
 <p align="center">
-	<img src="example_figure/Average_R_8_locs.png"  width="600" height="400">
+	<img src="example_figure/Average_R_8_locs.png"  width="400" height="400">
 </p>
