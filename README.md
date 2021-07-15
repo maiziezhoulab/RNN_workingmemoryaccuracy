@@ -43,3 +43,7 @@ Most of the analysis in the paper can be reproduced by **Main_analysis.ipynb**.
 <p align="center">
 	<img src="example_figure/odrd_psth.png"  width="700" height="300">
 </p>
+**Endpoint Analysis** plot the distribution of saccade endpoints to the actual cue location, during three developmental stages
+<p align="center">
+	<img src="example_figure/Endpoint_analysis.png"  width="700" height="300">
+</p>
