@@ -66,5 +66,5 @@ Most of the analysis in the paper can be reproduced by **Main_analysis.ipynb**.
 
 **neuron_heatmap** plots the heatmap of sorted neurons normalized firing rate (ascending order) at location 90° in mid stage network.
 <p align="center">
-	<img src="example_figure/heatmap.png"  width="400" height="300">
+	<img src="example_figure/heatmap.png"  width="700" height="300">
 </p>
