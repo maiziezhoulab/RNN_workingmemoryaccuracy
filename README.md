@@ -44,12 +44,17 @@ Most of the analysis in the paper can be reproduced by **Main_analysis.ipynb**.
 	<img src="example_figure/odrd_psth.png"  width="700" height="300">
 </p>
 
-**Endpoint Analysis** plot the distribution of saccade endpoints to the actual cue location, during three developmental stages.
+**Endpoint Analysis** plots the distribution of saccade endpoints to the actual cue location, during three developmental stages.
 <p align="center">
 	<img src="example_figure/Endpoint_analysis.png"  width="600" height="400">
 </p>
 
-**Averaged_R_tuning_locs**
+**Averaged_R_tuning_locs** plots pearson correlation coefficients at tuning locations of last 1s delay in mature stage.
 <p align="center">
-	<img src="example_figure/Average_R_8_locs.png"  width="400" height="400">
+	<img src="example_figure/Average_R_8_locs.png"  width="400" height="300">
+</p>
+
+**single_neuron_fano_factor** plots tunning curves of RNN units in the delay period and fano factor for each location of delay neurons
+<p align="center">
+	<img src="example_figure/fano_factor.png"  width="400" height="300">
 </p>
