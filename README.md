@@ -56,5 +56,5 @@ Most of the analysis in the paper can be reproduced by **Main_analysis.ipynb**.
 
 **single_neuron_fano_factor** plots tunning curves of RNN units in the delay period and fano factor for each location of delay neurons
 <p align="center">
-	<img src="example_figure/fano_factor.png"  width="400" height="300">
+	<img src="example_figure/fano_factor.png"  width="600" height="400">
 </p>
