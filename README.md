@@ -7,6 +7,9 @@ Here we also provide a jupyter notebook **Main_analysis.ipynb** that you can dir
 
 *To use **Main_analysis.ipynb**, download "RNN_workingmemoryaccuracy" via git clone and save it in the google drive.
 
+## Pretrained model
+Model used in paper can be downloaded from <a href="https://zenodo.org/record/5209068#.YRrjz9NKi3I">here</a>
+
 ## Training
 
 *Training scripts (including train.py, task.py and network.py) are partly adapted from* <a href="https://github.com/gyyang/multitask">Multitask</a> 
