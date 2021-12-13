@@ -76,3 +76,8 @@ Most of the analysis in the paper can be reproduced by **Main_analysis.ipynb**.
 <p align="center">
 	<img src="example_figure/single_neuron_raster_plot.png"  width="500" height="400">
 </p>
+
+**weight matrix** plots the weight matrices of input, output and recurrent weights in the network
+<p align="center">
+	<img src="example_figure/synaptic_analysis_mature_no_cluster_stim1_3s_fix_8loc.pdf"  width="500" height="400">
+</p>
