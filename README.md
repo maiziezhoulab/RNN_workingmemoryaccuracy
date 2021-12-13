@@ -79,5 +79,5 @@ Most of the analysis in the paper can be reproduced by **Main_analysis.ipynb**.
 
 **weight matrix** plots the weight matrices of input, output and recurrent weights in the network
 <p align="center">
-	<img src="example_figure/weight_matrix_sorted_by_best_location.png"  width="400" height="400">
+	<img src="example_figure/weight_matrix_sorted_by_best_location.png"  width="600" height="400">
 </p>
