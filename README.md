@@ -81,3 +81,8 @@ Most of the analysis in the paper can be reproduced by **Main_analysis.ipynb**.
 <p align="center">
 	<img src="example_figure/weight_matrix_sorted_by_best_location.png"  width="600" height="400">
 </p>
+
+**input weight distribution** plots weight distribution of input-to-recurrent unit weights in mid-, mature- and fully-trained networks incorporating 8 input units (up) and 360 input units (down)
+<p align="center">
+	<img src="example_figure/weight_distribution.png"  width="600" height="400">
+</p>
