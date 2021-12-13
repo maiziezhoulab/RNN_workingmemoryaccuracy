@@ -77,7 +77,7 @@ Most of the analysis in the paper can be reproduced by **Main_analysis.ipynb**.
 	<img src="example_figure/single_neuron_raster_plot.png"  width="500" height="400">
 </p>
 
-**weight matrix** plots the weight matrices of input, output and recurrent weights in the network
+**weight matrix**  Full connectivity matrix for a trained network in the ODR task. Left: weights between input and hidden (recurrent) units. Center: weights between recurrent units. Bottom: weights between recurrent and output units. Arrangement of recurrent units in the corresponding dimension of each matrix was obtained, by sorting them based on their preferred stimulus location in the ODR task. Red points indicate excitatory weights between corresponding units; blue points indicate inhibitory weights.
 <p align="center">
 	<img src="example_figure/weight_matrix_sorted_by_best_location.png"  width="600" height="400">
 </p>
