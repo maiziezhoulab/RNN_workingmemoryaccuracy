@@ -79,5 +79,5 @@ Most of the analysis in the paper can be reproduced by **Main_analysis.ipynb**.
 
 **weight matrix** plots the weight matrices of input, output and recurrent weights in the network
 <p align="center">
-	<img src="example_figure/synaptic_analysis_mature_no_cluster_stim1_3s_fix_8loc.pdf"  width="500" height="400">
+	<img src="example_figure/weight_matrix_sorted_by_best_location.png"  width="500" height="400">
 </p>
