@@ -260,7 +260,7 @@ def clustering_by_taskvariance(hp, data_type, res, normalization_method='max'):
     return cluster_result
 
 
-def plot_connectivity(hp, weight_info, model_dir, trial_num, best_loc,cluster_result=None):
+def plot_connectivity(hp, weight_info, model_dir, trial_num, cluster_result=None):
     # Largely based on clustering.py plot
 
     nx = hp['n_input']
@@ -341,20 +341,20 @@ def plot_connectivity(hp, weight_info, model_dir, trial_num, best_loc,cluster_re
         im_list.append(im)
 
     plt.colorbar(im_list[0], cax=cax)
-    plt.show()
+
     # save_pic
-    # save_path = 'figure/figure_' + model_dir.rstrip('/').split('/')[-1] + '/synaptic_analysis/'
-    # if not os.path.isdir(save_path):
-    #     os.makedirs(save_path)
-    # save_name = save_path + "synaptic_analysis_trial_num-" + str(trial_num)
+    save_path = 'figure/figure_' + model_dir.rstrip('/').split('/')[-1] + '/synaptic_analysis/'
+    if not os.path.isdir(save_path):
+        os.makedirs(save_path)
+    save_name = save_path + "synaptic_analysis_trial_num-" + str(trial_num)
 
     # save input weights for further distribution plot
-    # with open(save_name + "w_in" + str(trial_num) + "_3s.pkl", "wb") as my_pickle:
-    #     pickle.dump(plot_infos[2][0], my_pickle)
+    with open(save_name + "w_in" + str(trial_num) + "_3s.pkl", "wb") as my_pickle:
+        pickle.dump(plot_infos[2][0], my_pickle)
 
 
 
-def synaptic_analysis(hp, model_dir, trial_num, best_loc,cluster_analysis=False, cluster_type="rule", rules=None):
+def synaptic_analysis(hp, model_dir, trial_num, cluster_analysis=False, cluster_type="rule", rules=None):
     weight_info = dict()
     model = Model(model_dir + '/' + str(trial_num), hp=hp)
     cluster_result = None
@@ -371,7 +371,7 @@ def synaptic_analysis(hp, model_dir, trial_num, best_loc,cluster_analysis=False,
             result = compute_task_variance(model, sess, rules=rules, data_type=cluster_type)
             cluster_result = clustering_by_taskvariance(hp, cluster_type, result, normalization_method='max')
 
-    plot_connectivity(hp, weight_info, model_dir, trial_num, best_loc,cluster_result=cluster_result)
+    plot_connectivity(hp, weight_info, model_dir, trial_num, cluster_result=cluster_result)
 
 
 
@@ -423,5 +423,5 @@ if __name__ == "__main__":
         best_loc.append(each_info[1])
 
     # plot weight matrix sorted by best epoch location
-    synaptic_analysis(hp, model_dir, models_select[stage], best_loc,cluster_analysis=True, cluster_type="rule", rules=None)
+    synaptic_analysis(hp, model_dir, models_select[stage], cluster_analysis=True, cluster_type="rule", rules=None)
 
