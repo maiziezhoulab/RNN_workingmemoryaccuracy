@@ -86,3 +86,6 @@ Most of the analysis in the paper can be reproduced by **Main_analysis.ipynb**.
 <p align="center">
 	<img src="example_figure/weight_distribution.png"  width="600" height="400">
 </p>
+
+## Cite the work
+Neural mechanisms of working memory accuracy revealed by recurrent neural networks. Y. Xie, Y. H. Liu, C. Constantinidis, X. Zhou. Front. Syst. Neurosci. (2022) 16:760864. 
